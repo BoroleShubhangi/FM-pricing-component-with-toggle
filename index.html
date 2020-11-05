@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png" />
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@700&display=swap" rel="stylesheet" />
+    <title>Frontend mentor| Pricing Component With Toggle</title>
+    <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+    <div class="Container">
+        <h2 class="heading">Our pricing</h2>
+        <div class="toggle_bth">
+            <p class="price-option annually">Annually</p>
+
+            <label class="switch">
+                <input type="checkbox" id="toggle-switch" onclick="check()" />
+                <span class="slider round"></span>
+            </label>
+            <p class="price-option monthly">Monthly</p>
+        </div>
+
+        <div class="plans">
+            <div class="plan_txt">
+                <p class="plan_type">Basic</p>
+                <p class="price price-m">&dollar;19.99</p>
+                <p class="price price-a">&dollar;199.99</p>
+                <p>500 GB Storage</p>
+                <p>2 Users Allowed</p>
+                <p>Send up to 3 GB</p>
+                <button class="learn-more">Learn More</button>
+            </div>
+
+            <div class="plan_txt">
+                <p class="plan_type">Professional</p>
+                <p class="price price-m">&dollar;24.99</p>
+                <p class="price price-a">&dollar;249.99</p>
+                <p>1 TB Storage</p>
+                <p>5 Users Allowed</p>
+                <p>Send up to 10 GB</p>
+                <button class="learn-more">Learn More</button>
+            </div>
+
+            <div class="plan_txt">
+                <p class="plan_type">Master</p>
+                <p class="price price-m">&dollar;39.99</p>
+                <p class="price price-a">&dollar;399.99</p>
+                <p>2 TB Storage</p>
+                <p>10 Users Allowed</p>
+                <p>Send up to 20 GB</p>
+                <button class="learn-more">Learn More</button>
+            </div>
+        </div>
+        <footer>
+            <div class="attribution">
+                Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
+                Coded by <a href="https://www.frontendmentor.io/profile/BoroleShubhangi">Shubhnagi Borole</a>.
+        </footer>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
