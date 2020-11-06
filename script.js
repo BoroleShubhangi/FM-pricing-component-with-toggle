@@ -3,7 +3,7 @@ const toggleSwitch = document.getElementById("toggle-switch"),
  prices_a = document.getElementsByClassName("price-a"); 
 
   const check = () => {
-  for (let i = 0; i < prices1.length; i++) {
+  for (let i = 0; i < prices_m.length; i++) {
     if (toggleSwitch.checked) {
       prices_m[i].style.display = "block";
       prices_a[i].style.display = "none";
